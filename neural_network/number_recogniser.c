@@ -8,7 +8,7 @@
 
 const int networkLayout[] = {784, 28, 28, 10};
 const int networkSize = 4;
-const double learningRate = 0.0000005;
+const double learningRate = 0.05;
 const double expectedOutputs[10][10] = {
 	{1,0,0,0,0,0,0,0,0,0},
 	{0,1,0,0,0,0,0,0,0,0},
